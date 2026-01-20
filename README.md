@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="auto" alt="Alex Portfolio" src="images/README.webp" />
+<img width="1200" height="auto" alt="Alex Portfolio" src="images/README_Img.webp" />
 </div>
 
 # Alex Portfolio

@@ -62,7 +62,7 @@ const menuItems = [
 const socialLinks = [
     { icon: InstagramIcon, href: "#", label: "Instagram" },
     { icon: BehanceIcon, href: "#", label: "Behance" },
-    { icon: GithubIcon, href: "#", label: "Github" },
+    { icon: GithubIcon, href: "https://github.com/yazioo/Alex_Portfolio/", label: "Github" },
     { icon: LinkedInIcon, href: "#", label: "LinkedIn" },
 ] as const;
 
@@ -175,7 +175,7 @@ const Navbar: React.FC<NavbarProps> = memo(({ currentView, onNavigate }) => {
                                                 href={social.href}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                onClick={(e) => e.preventDefault()}
+                                        
                                                 custom={index}
                                                 className="absolute w-12 h-12 bg-black rounded-full flex items-center justify-center text-white shadow-xl border border-white/10 pointer-events-auto hover:bg-gray-900 hover:scale-110 transition-colors z-[-1]"
                                                 initial={{ x: 0, y: 0, opacity: 0, scale: 0.5 }}

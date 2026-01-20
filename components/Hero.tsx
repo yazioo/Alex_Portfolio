@@ -248,7 +248,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
                                 alt="UI/UX Designer Portrait"
                                 loading="eager"
                                 decoding="async"
-                                className="object-contain object-bottom h-[60vh] sm:h-[80vh] md:h-[120%] w-auto max-w-full relative z-10 filter drop-shadow-2xl mb-6 md:-mb-8 pointer-events-none"
+                                className="object-contain object-bottom h-[80vh] sm:h-[80vh] md:h-[120%] w-auto max-w-full relative z-10 filter drop-shadow-2xl mb-6 md:-mb-8 pointer-events-none"
                             />
                         </div>
                     </div>

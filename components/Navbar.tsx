@@ -62,7 +62,7 @@ const menuItems = [
 const socialLinks = [
     { icon: InstagramIcon, href: "#", label: "Instagram" },
     { icon: BehanceIcon, href: "#", label: "Behance" },
-    { icon: GithubIcon, href: "#", label: "Github" },
+    { icon: GithubIcon, href: "https://github.com/yazioo/Alex_Portfolio/", label: "Github" },
     { icon: LinkedInIcon, href: "#", label: "LinkedIn" },
 ] as const;
 

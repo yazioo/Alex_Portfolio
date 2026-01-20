@@ -153,7 +153,7 @@ const Works: React.FC = memo(() => {
         className="shrink-0 pt-8 pb-4 flex flex-col items-center"
       >
         <a
-          href="#"
+          href="https://github.com/yazioo/Alex_Portfolio/"
           onClick={(e) => e.preventDefault()}
           className="flex items-center gap-2 text-gray-900 text-xs md:text-sm font-bold border-b border-black hover:text-blue-600 hover:border-blue-600 transition-colors pb-0.5"
         >

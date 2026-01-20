@@ -16,12 +16,12 @@ export const AuroraBackground = memo(({
   return (
     <div
       className={cn(
-        "relative flex flex-col h-screen w-screen items-center justify-center bg-zinc-50 dark:bg-zinc-900 text-slate-950 transition-bg overflow-hidden",
+        "relative flex flex-col h-screen w-screen items-center justify-center bg-white md:bg-zinc-50 dark:md:bg-zinc-900 text-slate-950 transition-bg overflow-hidden",
         className
       )}
       {...props}
     >
-      <div className="absolute inset-0 overflow-hidden pointer-events-none contain-paint">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none contain-paint hidden md:block">
         <div
           className={cn(
             `[--white-gradient:repeating-linear-gradient(100deg,var(--white)_0%,var(--white)_7%,var(--transparent)_10%,var(--transparent)_12%,var(--white)_16%)]

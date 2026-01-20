@@ -4,23 +4,7 @@ import { cn } from '../lib/utils';
 import { MousePointer2 } from 'lucide-react';
 
 const FigmaLogo = memo(({ className }: { className?: string }) => (
-  <svg viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-    <g fill="none">
-      <rect width="256" height="256" fill="#f4f2ed" rx="60" />
-      <g clipPath="url(#clip0_figma)">
-        <path fill="#0acf83" d="M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334S75.947 228 94.347 228" />
-        <path fill="#a259ff" d="M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333" />
-        <path fill="#f24e1e" d="M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334" />
-        <path fill="#ff7262" d="M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z" />
-        <path fill="#1abcfe" d="M194.347 128c0 18.4-14.934 33.333-33.334 33.333S127.68 146.4 127.68 128s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128" />
-      </g>
-      <defs>
-        <clipPath id="clip0_figma">
-          <path fill="#fff" d="M61 28h133.36v200H61z" />
-        </clipPath>
-      </defs>
-    </g>
-  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><g clip-path="url(#SVG9U8Xmbth)"><path fill="#0acf83" d="M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334S75.947 228 94.347 228"/><path fill="#a259ff" d="M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333"/><path fill="#f24e1e" d="M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334"/><path fill="#ff7262" d="M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z"/><path fill="#1abcfe" d="M194.347 128c0 18.4-14.934 33.333-33.334 33.333S127.68 146.4 127.68 128s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128"/></g><defs><clipPath id="SVG9U8Xmbth"><path fill="#fff" d="M61 28h133.36v200H61z"/></clipPath></defs></g></svg>
 ));
 
 FigmaLogo.displayName = 'FigmaLogo';
@@ -35,12 +19,7 @@ const FramerLogo = memo(({ className }: { className?: string }) => (
 FramerLogo.displayName = 'FramerLogo';
 
 const IllustratorLogo = memo(({ className }: { className?: string }) => (
-  <svg viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-    <g fill="none">
-      <rect width="256" height="256" fill="#330000" rx="60" />
-      <path fill="#ff9a00" d="M123.733 152.333h-39.68L75.946 177.4c-.213.96-1.066 1.6-2.026 1.493H53.866c-1.173 0-1.493-.64-1.173-1.92l34.347-98.88c.32-1.066.64-2.24 1.066-3.52c.427-2.24.64-4.586.64-6.933c-.106-.533.32-1.067.854-1.173h27.626c.854 0 1.28.32 1.387.853l38.933 109.867c.32 1.173 0 1.706-1.066 1.706h-22.294c-.746.107-1.493-.426-1.706-1.173zM90.24 130.68h27.093c-.64-2.24-1.493-4.907-2.453-7.68c-.96-2.88-1.92-5.973-2.88-9.173c-1.067-3.307-2.027-6.507-3.094-9.814c-1.066-3.306-2.026-6.4-2.88-9.493c-.853-2.986-1.6-5.76-2.346-8.32h-.214c-.96 4.587-2.133 9.174-3.626 13.76c-1.6 5.12-3.2 10.453-4.907 15.787a209 209 0 0 1-4.693 14.933m91.093-45.547c-3.52.107-6.933-1.28-9.493-3.733c-2.453-2.667-3.733-6.187-3.627-9.813c-.106-3.627 1.28-7.04 3.84-9.494s5.974-3.733 9.494-3.733c4.16 0 7.36 1.28 9.706 3.733a13.46 13.46 0 0 1 3.52 9.494c.107 3.626-1.173 7.146-3.733 9.813c-2.453 2.56-6.08 3.947-9.707 3.733m-11.946 92.587V95.587c0-1.067.426-1.494 1.386-1.494h21.12c.96 0 1.387.534 1.387 1.494v82.133c0 1.173-.427 1.707-1.387 1.707h-20.906c-1.067 0-1.6-.64-1.6-1.707" />
-    </g>
-  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}><g fill="none"><rect width="256" height="256" fill="#300" rx="60"/><path fill="#ff9a00" d="M123.733 152.333h-39.68L75.946 177.4c-.213.96-1.066 1.6-2.026 1.493H53.866c-1.173 0-1.493-.64-1.173-1.92l34.347-98.88c.32-1.066.64-2.24 1.066-3.52c.427-2.24.64-4.586.64-6.933c-.106-.533.32-1.067.854-1.173h27.626c.854 0 1.28.32 1.387.853l38.933 109.867c.32 1.173 0 1.706-1.066 1.706h-22.294c-.746.107-1.493-.426-1.706-1.173zM90.24 130.68h27.093c-.64-2.24-1.493-4.907-2.453-7.68c-.96-2.88-1.92-5.973-2.88-9.173c-1.067-3.307-2.027-6.507-3.094-9.814c-1.066-3.306-2.026-6.4-2.88-9.493c-.853-2.986-1.6-5.76-2.346-8.32h-.214c-.96 4.587-2.133 9.174-3.626 13.76c-1.6 5.12-3.2 10.453-4.907 15.787a209 209 0 0 1-4.693 14.933m91.093-45.547c-3.52.107-6.933-1.28-9.493-3.733c-2.453-2.667-3.733-6.187-3.627-9.813c-.106-3.627 1.28-7.04 3.84-9.494s5.974-3.733 9.494-3.733c4.16 0 7.36 1.28 9.706 3.733a13.46 13.46 0 0 1 3.52 9.494c.107 3.626-1.173 7.146-3.733 9.813c-2.453 2.56-6.08 3.947-9.707 3.733m-11.946 92.587V95.587c0-1.067.426-1.494 1.386-1.494h21.12c.96 0 1.387.534 1.387 1.494v82.133c0 1.173-.427 1.707-1.387 1.707h-20.906c-1.067 0-1.6-.64-1.6-1.707"/></g></svg>
 ));
 
 IllustratorLogo.displayName = 'IllustratorLogo';
@@ -253,14 +232,14 @@ const Skills: React.FC = memo(() => {
           <div>
             <div className="flex justify-between items-start mb-3">
               <div className="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center border border-gray-100 group-hover:bg-white group-hover:scale-105 transition-all">
-                <FramerLogo className="w-6 h-6" />
+                <FigmaLogo className="w-6 h-6" />
               </div>
               <div className="px-2 py-1 bg-blue-50 rounded-md border border-blue-100">
                 <span className="text-[10px] font-bold text-blue-600 uppercase tracking-wide">No-Code</span>
               </div>
             </div>
 
-            <h3 className="text-xl font-bold text-gray-900 mb-0.5">Framer</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-0.5">Animations</h3>
             <p className="text-sm text-gray-500 leading-relaxed">
               Interactive sites, complex animations, and production deployment.
             </p>

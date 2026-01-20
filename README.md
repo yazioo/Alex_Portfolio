@@ -17,6 +17,11 @@ A dynamic and interactive portfolio website designed for a UI/UX Designer. This 
 2. Run the app:
    `npm run dev`
 
+## Icon Attributions
+
+**Stickies Color Icons by Streamline** – CC BY 4.0 – https://streamlinehq.com/  
+  Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

@@ -152,7 +152,7 @@ const IllustratorVisual = memo(() => (
         playsInline
         preload="auto"
         className="absolute top-0 left-0 w-full h-full object-cover"
-        style={{ pointerEvents: 'none', transform: 'translateX(5%)' }}
+        style={{ pointerEvents: 'none', transform: 'translateX(1%)' }}
       />
     </div>
     <div className="absolute inset-0 bg-gradient-to-t from-white/60 to-transparent pointer-events-none" />

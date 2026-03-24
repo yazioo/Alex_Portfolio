@@ -224,11 +224,18 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
                         </ShimmerButton>
 
                         <div className="relative inline-flex overflow-hidden rounded-full p-[1px]">
-                            <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#06b6d4_0%,#10b981_33%,#f59e0b_66%,#06b6d4_100%)]" />
-                            <button className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white/90 px-6 py-2.5 text-sm font-bold text-gray-800 backdrop-blur-3xl hover:bg-white transition-all gap-2">
-                                <Mail size={18} className="text-black" />
-                                Hire Me
-                            </button>
+                            <a 
+  href="mailto:https://web.facebook.com/Yaz.vers" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="relative inline-flex overflow-hidden rounded-full p-[1px]"
+>
+    <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#06b6d4_0%,#10b981_33%,#f59e0b_66%,#06b6d4_100%)]" />
+    <button className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-white/90 px-6 py-2.5 text-sm font-bold text-gray-800 backdrop-blur-3xl hover:bg-white transition-all gap-2">
+        <Mail size={18} className="text-black" />
+        Hire Me
+    </button>
+</a>
                         </div>
                     </motion.div>
                 </div>

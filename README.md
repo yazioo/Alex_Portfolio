@@ -8,6 +8,11 @@ A dynamic and interactive portfolio website designed for a UI/UX Designer. This 
 
 ### 💖 Made With Love by Yazioo
 
+## 🌐 Social Media
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/Yaz.vers)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yaz_verse.dz)
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/GamerClash62423)
 ## Run Locally
 
 **Prerequisites:** Node.js

@@ -18,15 +18,50 @@ const InstagramIcon = memo(({ className = "" }: { className?: string }) => (
 ));
 InstagramIcon.displayName = 'InstagramIcon';
 
-const LinkedInIcon = memo(({ className = "" }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}><g fill="none"><rect width="256" height="256" fill="#fff" rx="60"/><rect width="256" height="256" fill="#0a66c2" rx="60"/><path fill="#fff" d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168c-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82c19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4M38 59.628c0 11.864 9.767 21.626 21.632 21.626c11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38C47.762 38 38 47.763 38 59.627m6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4"/></g></svg>
+const FacebookIcon = memo(({ className = "" }: { className?: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}>
+        <g fill="none">
+            <rect width="256" height="256" fill="#000" rx="60"/>
+            
+            <g transform="translate(28, 28) scale(0.3)">
+                <defs>
+                    <clipPath id="facebook_icon__a" clipPathUnits="userSpaceOnUse">
+                        <path d="M0 700h700V0H0Z" />
+                    </clipPath>
+                </defs>
+                <g clipPath="url(#facebook_icon__a)" transform="matrix(1.33333 0 0 -1.33333 -133.333 800)">
+                    <path 
+                        d="M0 0c0 138.071-111.929 250-250 250S-500 138.071-500 0c0-117.245 80.715-215.622 189.606-242.638v166.242h-51.552V0h51.552v32.919c0 85.092 38.508 124.532 122.048 124.532 15.838 0 43.167-3.105 54.347-6.211V81.986c-5.901.621-16.149.932-28.882.932-40.993 0-56.832-15.528-56.832-55.9V0h81.659l-14.028-76.396h-67.631v-171.773C-95.927-233.218 0-127.818 0 0" 
+                        fill="#fff" 
+                        transform="translate(600 350)" 
+                    />
+                    <path 
+                        d="m0 0 14.029 76.396H-67.63v27.019c0 40.372 15.838 55.899 56.831 55.899 12.733 0 22.981-.31 28.882-.931v69.253c-11.18 3.106-38.509 6.212-54.347 6.212-83.539 0-122.048-39.441-122.048-124.533V76.396h-51.552V0h51.552v-166.242a250.559 250.559 0 0 1 60.394-7.362c10.254 0 20.358.632 30.288 1.831V0Z" 
+                        fill="#000" 
+                        transform="translate(447.918 273.604)" 
+                    />
+                </g>
+            </g>
+        </g>
+    </svg>
 ));
-LinkedInIcon.displayName = 'LinkedInIcon';
+FacebookIcon.displayName = 'FacebookIcon';
 
-const FigmaIcon = memo(({ className = "" }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}><g fill="none"><rect width="256" height="256" fill="#f4f2ed" rx="60"/><g clip-path="url(#SVG9U8Xmbth)"><path fill="#0acf83" d="M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334S75.947 228 94.347 228"/><path fill="#a259ff" d="M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333"/><path fill="#f24e1e" d="M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334"/><path fill="#ff7262" d="M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68z"/><path fill="#1abcfe" d="M194.347 128c0 18.4-14.934 33.333-33.334 33.333S127.68 146.4 127.68 128s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128"/></g><defs><clipPath id="SVG9U8Xmbth"><path fill="#fff" d="M61 28h133.36v200H61z"/></clipPath></defs></g></svg>
+const XIcon = memo(({ className = "" }: { className?: string }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" className={className}>
+        <g fill="none">
+            <rect width="256" height="256" fill="#000" rx="60"/>
+            
+            <g transform="translate(58, 56.4) scale(0.116667)">
+                <path 
+                    fill="#fff" 
+                    d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z" 
+                />
+            </g>
+        </g>
+    </svg>
 ));
-FigmaIcon.displayName = 'FigmaIcon';
+XIcon.displayName = 'XIcon';
 
 const menuItems = [
     { name: 'Home', icon: Home },
@@ -36,10 +71,10 @@ const menuItems = [
 ] as const;
 
 const socialLinks = [
-    { icon: InstagramIcon, href: "#", label: "Instagram" },
-    { icon: FigmaIcon, href: "#", label: "Figma" },
+    { icon: InstagramIcon, href: "https://www.instagram.com/yaz_verse.dz", label: "Instagram" },
+    { icon: XIcon, href: "https://x.com/GamerClash62423", label: "X" },
     { icon: GithubIcon, href: "https://github.com/yazioo/Alex_Portfolio/", label: "Github" },
-    { icon: LinkedInIcon, href: "#", label: "LinkedIn" },
+    { icon: FacebookIcon, href: "https://web.facebook.com/Yaz.vers", label: "Facebook" },
 ] as const;
 
 const LogoSVG = memo(() => (

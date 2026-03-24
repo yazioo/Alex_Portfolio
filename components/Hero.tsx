@@ -225,7 +225,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
 
                         <div className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                             <a 
-  href="mailto:https://web.facebook.com/Yaz.vers" 
+  href="https://web.facebook.com/Yaz.vers" 
   target="_blank" 
   rel="noopener noreferrer" 
   className="relative inline-flex overflow-hidden rounded-full p-[1px]"
